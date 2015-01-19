@@ -1,5 +1,9 @@
+#temp
+tmp/
+
 #composer
 vendor/
+composer.lock
 
 # node
 ui/node_modules/
