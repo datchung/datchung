@@ -1,0 +1,15 @@
+{
+    "sections": [
+        {
+            "title": "Android",
+            "name": "android",
+            "content": "abc"
+        },
+        {
+            "title": "Windows Phone",
+            "name": "wp",
+            "content": "def"
+        }
+    ],
+    "submenuOffset": "offset-by-four"
+}

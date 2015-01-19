@@ -18,16 +18,16 @@
       <input type="checkbox" id="hidden-checkbox1" class="expand-control">
 
       <ul class="navigation-list">
-        <li><a href="mobile-apps.html">Mobile Apps</a></li>
-        <li><a href="open-source.html">Open Source</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="mobile-apps">Mobile Apps</a></li>
+        <li><a href="open-source">Open Source</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
     </div>
 
     <div class="container">
       <div class="row">
         <div class="twelve columns topOfPage wrap-center">
-          <h1><a href="index.html">Dat Chung</a></h1>
+          <h1><a href="/">Dat Chung</a></h1>
         </div>
       </div>
 
@@ -37,13 +37,13 @@
 
       <div class="row">
         <div class="twelve columns">
-          <include href="{{ @content }}" />
+          <include href="{{ @sections }}" />
         </div>
       </div>
 
       <div class="row">
         <div class="twelve columns">
-          Copyright 2014-2015 By Dat Chung
+          Copyright 2014-{{ @year }} By Dat Chung
         </div>
       </div>
     </div>

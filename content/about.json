@@ -1,0 +1,20 @@
+{
+    "sections": [
+        {
+            "title": "Skills/Experience",
+            "name": "skills",
+            "content": "abc"
+        },
+        {
+            "title": "Interests",
+            "name": "interests",
+            "content": "def"
+        },
+        {
+            "title": "Extracurricular",
+            "name": "extra",
+            "content": "ghi"
+        }
+    ],
+    "submenuOffset": "offset-by-three"
+}
