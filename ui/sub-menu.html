@@ -1,0 +1,5 @@
+<repeat group="{{ @submenuItems }}" value="{{ @submenuItem }}" counter="{{ @i }}">
+    <div class="{{ @i == 1 ? @submenuOffset : '' }} two columns wrap-center">
+      <a href="#{{ @submenuItem.name }}">{{ @submenuItem.title }}</a>
+    </div>
+</repeat>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dat Chung</title>
+    <meta name="description" content="">
+    <meta name="author" content="css-responsive-menu">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="ui/vendor/skeleton/css/normalize.css" />
+    <link rel="stylesheet" href="ui/vendor/skeleton/css/skeleton.css" />
+    <link rel="stylesheet" href="ui/bower_components/css-responsive-menu/dist/css-responsive-menu.min.css" />
+    <link rel="stylesheet" href="ui/css/main.min.css" />
+  </head>
+  <body>
+    <div class="css-responsive-menu">
+      <label for="hidden-checkbox1" class="expand-control">Menu</label>
+      <input type="checkbox" id="hidden-checkbox1" class="expand-control">
+
+      <ul class="navigation-list">
+        <li><a href="mobile-apps.html">Mobile Apps</a></li>
+        <li><a href="open-source.html">Open Source</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns topOfPage wrap-center">
+          <h1><a href="index.html">Dat Chung</a></h1>
+        </div>
+      </div>
+
+      <div class="row sub-menu">
+        <include href="{{ @submenu }}" />
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <include href="{{ @content }}" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          Copyright 2014-2015 By Dat Chung
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "datchung/datchung",
+    "description": "My site",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "datchung",
+            "email": "innochi.contact@gmail.com"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree": "*"
+    }
+}

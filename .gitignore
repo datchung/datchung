@@ -1,8 +1,11 @@
+#composer
+vendor/
+
 # node
-node_modules/
+ui/node_modules/
 
 # bower
-bower_components/
+ui/bower_components/
 
 # Windows image file caches
 Thumbs.db
@@ -48,3 +51,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/vendor/
