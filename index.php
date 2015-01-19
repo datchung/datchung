@@ -4,19 +4,11 @@ $f3 = require('vendor/bcosca/fatfree/lib/base.php');
 
 $f3->set('UI_PATH', 'ui/');
 
-// $f3->route('GET /',
-//     function($f3) {
-//         $f3->set('name','world');
-//         //echo View::instance()->render('ui/template.html');
-//         echo Template::instance()->render('ui/template.html');
-//     }
-// );
+$f3->set('AUTOLOAD','autoload/');
 
 $f3->route('GET /',
     function($f3) {
-        $UI_PATH = $f3->get('UI_PATH');
-
-        $f3->set('submenuItems', array(
+        $submenuItems = array(
             array(
                 'title' => 'Skills/Experience',
                 'name' => 'skills'
@@ -29,12 +21,10 @@ $f3->route('GET /',
                 'title' => 'Extracurricular',
                 'name' => 'extra'
                 )
-            )
         );
-
-        $f3->set('submenuOffset', 'offset-by-three');
-        $f3->set('submenu', $UI_PATH . 'sub-menu.html');
-        $f3->set('content', $UI_PATH . 'about.html');
+        $submenuOffset = 'offset-by-three';
+        $content = 'about.html';
+        MainTemplate::setup($f3, $submenuItems, $submenuOffset, $content);
 
         echo Template::instance()->render('ui/template.html');
     }
@@ -42,10 +32,20 @@ $f3->route('GET /',
 
 $f3->route('GET /mobile-apps',
     function($f3) {
-        // echo Template::instance()->render('ui/index.html');
-        $UI_PATH = $f3->get('UI_PATH');
-        $f3->set('submenu', $UI_PATH . 'sub-menu.html');
-        $f3->set('content', $UI_PATH . 'about.html');
+        $submenuItems = array(
+            array(
+                'title' => 'Android',
+                'name' => 'android'
+                ),
+            array(
+                'title' => 'Windows Phone',
+                'name' => 'wp'
+                )
+        );
+        $submenuOffset = 'offset-by-four';
+        $content = 'mobile-apps.html';
+        MainTemplate::setup($f3, $submenuItems, $submenuOffset, $content);
+
         echo Template::instance()->render('ui/template.html');
     }
 );
