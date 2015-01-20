@@ -6,6 +6,11 @@
             "content": "about/skills-experience"
         },
         {
+            "title": "Beliefs",
+            "name": "beliefs",
+            "content": "about/beliefs"
+        },
+        {
             "title": "Interests",
             "name": "interests",
             "content": "about/interests"
@@ -16,5 +21,5 @@
             "content": "about/extracurricular"
         }
     ],
-    "submenuOffset": "offset-by-three"
+    "submenuOffset": "offset-by-two"
 }
