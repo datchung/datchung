@@ -1,6 +1,6 @@
 <repeat group="{{ @pageContent.sections }}" value="{{ @section }}">
     <h3><a name="{{ @section.name }}">{{ @section.title }}</a></h3>
     <p>
-      {{ @section.content }}
+      <include href="{{ @contentPath . @section.content . '.html'}}" />
     </p>
 </repeat>

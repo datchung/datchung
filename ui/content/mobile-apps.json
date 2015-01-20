@@ -3,12 +3,12 @@
         {
             "title": "Android",
             "name": "android",
-            "content": "abc"
+            "content": "mobile-apps/android"
         },
         {
             "title": "Windows Phone",
             "name": "wp",
-            "content": "def"
+            "content": "mobile-apps/wp"
         }
     ],
     "submenuOffset": "offset-by-four"

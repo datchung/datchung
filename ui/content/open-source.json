@@ -1,0 +1,15 @@
+{
+    "sections": [
+        {
+            "title": "CSS Responsive Menu",
+            "name": "crm",
+            "content": "open-source/css-responsive-menu"
+        },
+        {
+            "title": "Handlebars Helpers",
+            "name": "hbh",
+            "content": "open-source/handlebars-helpers"
+        }
+    ],
+    "submenuOffset": "offset-by-four"
+}

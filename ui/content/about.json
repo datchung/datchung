@@ -3,17 +3,17 @@
         {
             "title": "Skills/Experience",
             "name": "skills",
-            "content": "abc"
+            "content": "about/skills-experience"
         },
         {
             "title": "Interests",
             "name": "interests",
-            "content": "def"
+            "content": "about/interests"
         },
         {
             "title": "Extracurricular",
             "name": "extra",
-            "content": "ghi"
+            "content": "about/extracurricular"
         }
     ],
     "submenuOffset": "offset-by-three"
