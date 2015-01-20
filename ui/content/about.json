@@ -1,14 +1,14 @@
 {
     "sections": [
         {
-            "title": "Skills/Experience",
-            "name": "skills",
-            "content": "about/skills-experience"
+            "title": "Experience",
+            "name": "experience",
+            "content": "about/experience"
         },
         {
-            "title": "Beliefs",
-            "name": "beliefs",
-            "content": "about/beliefs"
+            "title": "Principles",
+            "name": "principles",
+            "content": "about/principles"
         },
         {
             "title": "Interests",
