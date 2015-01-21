@@ -14,12 +14,7 @@
             "title": "Interests",
             "name": "interests",
             "content": "about/interests"
-        },
-        {
-            "title": "Extracurricular",
-            "name": "extra",
-            "content": "about/extracurricular"
         }
     ],
-    "submenuOffset": "offset-by-two"
+    "submenuOffset": "offset-by-three"
 }
