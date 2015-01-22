@@ -2,7 +2,6 @@
 tmp/
 
 #composer
-vendor/
 composer.lock
 
 # node
