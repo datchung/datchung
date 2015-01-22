@@ -5,6 +5,6 @@
     <li>Skeleton for css responsive boilerplate.</li>
     <li>css-responsive-menu for pure css responsive menu.</li>
     <li>Grunt task runner for compilation and validation.</li>
-    <li>Bower for client-side dependency management</li>
-    <li>Composer for server-side dependency management</li>
+    <li>Bower for client-side dependency management.</li>
+    <li>Composer for server-side dependency management.</li>
 </ul>
