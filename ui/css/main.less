@@ -17,6 +17,13 @@ h5 {
     margin-top: 5px;
 }
 
+.menu-filler {
+    background-color: #eeeeee;
+    .css-responsive-menu {
+        padding-left: 0;
+    }
+}
+
 .topOfPage {
     padding-top: 100px;
     padding-bottom: 30px;
@@ -49,5 +56,11 @@ dd {
 @media (max-width: 500px) {
     .column, .columns {
         margin-bottom: 20px;
+    }
+
+    .menu-filler {
+        .column, .columns {
+            margin-bottom: 0;
+        }
     }
 }
