@@ -1,26 +1,26 @@
 <!--Taken straight from http://getskeleton.com/-->
 <p><strong>Note: form not functional yet.</strong></p>
 
-<form>
+<form action="../contact-form" method="post">
   <div class="row">
     <div class="six columns">
-      <label for="exampleEmailInput">Your email</label>
-      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+      <label for="email-input">Your email</label>
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="email-input" name="email-input">
     </div>
     <div class="six columns">
-      <label for="exampleRecipientInput">Reason for contacting</label>
-      <select class="u-full-width" id="exampleRecipientInput">
+      <label for="recipient-input">Reason for contacting</label>
+      <select class="u-full-width" id="recipient-input" name="recipient-input">
         <option value="Option 1">Questions</option>
         <option value="Option 2">Admiration</option>
-        <option value="Option 3">Consulting</option>
+        <option value="Option 3">Consultation</option>
       </select>
     </div>
   </div>
-  <label for="exampleMessage">Message</label>
-  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-  <label class="example-send-yourself-copy">
-    <input type="checkbox">
+  <label for="message">Message</label>
+  <textarea class="u-full-width" placeholder="Hi Dave …" id="message" name="message"></textarea>
+  <!-- <label class="send-yourself-copy">
+    <input type="checkbox" id="send-yourself-copy" name="send-yourself-copy">
     <span class="label-body">Send a copy to yourself</span>
-  </label>
+  </label> -->
   <input class="button-primary" type="submit" value="Submit">
 </form>
