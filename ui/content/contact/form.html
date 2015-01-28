@@ -1,6 +1,8 @@
-<!--Taken straight from http://getskeleton.com/-->
-<p><strong>Note: form not functional yet.</strong></p>
+<check if="{{ @submitted }}">
+  <h3><a>Submitted</a></h3>
+</check>
 
+<!--Taken from http://getskeleton.com/-->
 <form action="../contact-form" method="post">
   <div class="row">
     <div class="six columns">
@@ -17,10 +19,6 @@
     </div>
   </div>
   <label for="message">Message</label>
-  <textarea class="u-full-width" placeholder="Hi Dave …" id="message" name="message"></textarea>
-  <!-- <label class="send-yourself-copy">
-    <input type="checkbox" id="send-yourself-copy" name="send-yourself-copy">
-    <span class="label-body">Send a copy to yourself</span>
-  </label> -->
+  <textarea class="u-full-width" placeholder="Hi Dat …" id="message" name="message"></textarea>
   <input class="button-primary" type="submit" value="Submit">
 </form>

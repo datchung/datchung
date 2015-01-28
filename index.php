@@ -27,6 +27,7 @@ $f3->route('GET /open-source',
 
 $f3->route('GET /contact',
     function($f3) {
+        $f3->set('submitted', $f3->get('QUERY') == 'submitted=true');
         MainTemplate::render($f3, $f3->get('CONTENT_PATH') . 'contact.json');
     }
 );
@@ -54,7 +55,7 @@ $f3->route('POST /contact-form',
         // Send
         mail('innochi.contact@gmail.com', $subject, $message);
 
-        $f3->reroute('/contact#form');
+        $f3->reroute('/contact?submitted=true');
     }
 );
 
