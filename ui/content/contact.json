@@ -1,14 +1,14 @@
 {
     "sections": [
         {
-            "title": "Social Media",
-            "name": "socialMedia",
-            "content": "contact/social-media"
-        },
-        {
             "title": "Contact Form",
             "name": "form",
             "content": "contact/form"
+        },
+        {
+            "title": "Social Media",
+            "name": "socialMedia",
+            "content": "contact/social-media"
         }
     ],
     "submenuOffset": "offset-by-four"
