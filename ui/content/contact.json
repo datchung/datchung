@@ -6,9 +6,9 @@
             "content": "contact/form"
         },
         {
-            "title": "Social Media",
-            "name": "socialMedia",
-            "content": "contact/social-media"
+            "title": "Social & Online",
+            "name": "social",
+            "content": "contact/social"
         }
     ],
     "submenuOffset": "offset-by-four"
