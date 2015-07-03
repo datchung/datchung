@@ -7,9 +7,14 @@
         },
         {
             "title": "HIIT Timer",
-            "name": "hT",
+            "name": "ht",
             "content": "open-source/hiit-timer"
+        },
+        {
+            "title": "JQuery Input File Text",
+            "name": "jqift",
+            "content": "open-source/jquery-input-file-text"
         }
     ],
-    "submenuOffset": "offset-by-four"
+    "submenuOffset": "offset-by-three"
 }
