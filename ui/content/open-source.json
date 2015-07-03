@@ -6,9 +6,9 @@
             "content": "open-source/css-responsive-menu"
         },
         {
-            "title": "Handlebars Helpers",
-            "name": "hbh",
-            "content": "open-source/handlebars-helpers"
+            "title": "HIIT Timer",
+            "name": "hT",
+            "content": "open-source/hiit-timer"
         }
     ],
     "submenuOffset": "offset-by-four"
