@@ -1,4 +1,0 @@
-<repeat group="{{ @pageContent.sections }}" value="{{ @section }}">
-    <h4><a id="{{ @section.name }}">{{ @section.title }}</a></h4>
-    <include href="{{ @contentPath . @section.content . '.html'}}" />
-</repeat>

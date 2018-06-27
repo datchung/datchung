@@ -1,0 +1,101 @@
+/*Colour palette*/
+.black {
+    color: #272822;
+}
+.fuschia {
+    color: #F92672;
+}
+.cyan {
+    color: #66D9EF;
+}
+.green {
+    color: #A6E22E;
+}
+.orange {
+    color: #FD971F;
+}
+
+/*Global element styles*/
+body {
+    background-color: #272822;
+    color: #fff;
+    font-family: monospace;
+    margin-bottom: 45px;
+}
+
+pre {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #272822;
+    color: #fff;
+}
+
+button {
+    color: #272822;
+}
+
+/*Navigation menu*/
+.navigation-list img {
+    height: 21px;
+}
+
+.menu-filler, .css-responsive-menu, a, a:hover, a:visited {
+    background-color: #42433E;
+    color: #fff;
+}
+@media (max-width: 500px) {
+    .css-responsive-menu ul.navigation-list {
+       background-color: #42433E;
+    }
+    #github-icon {
+        margin-right: 10px;
+    }
+}
+
+/*Command area*/
+.command {
+    color: #66D9EF;
+}
+
+.command-result pre {
+    color: #FD971F !important;
+}
+
+.display-none {
+    display: none;
+}
+
+/*Animations*/
+.blink {
+    animation: blinker 1s step-end infinite;
+    /*content: '|';*/
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+button.pulse {
+    border: 0;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #333;
+    }
+    40% {
+        background-color: #ccc;
+    }
+    60% {
+        background-color: #ccc;
+    }
+    100% {
+        background-color: #333;
+    }
+}
