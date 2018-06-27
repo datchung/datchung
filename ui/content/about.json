@@ -1,0 +1,20 @@
+{
+    "sections": [
+        {
+            "title": "Experience",
+            "name": "experience",
+            "content": "about/experience"
+        },
+        {
+            "title": "Principles",
+            "name": "principles",
+            "content": "about/principles"
+        },
+        {
+            "title": "Interests",
+            "name": "interests",
+            "content": "about/interests"
+        }
+    ],
+    "submenuOffset": "offset-by-three"
+}

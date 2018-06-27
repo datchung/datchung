@@ -1,0 +1,20 @@
+{
+    "sections": [
+        {
+            "title": "True Txt Reader Writer",
+            "name": "ttrw",
+            "content": "mobile-apps/true-txt-reader-writer"
+        },
+        {
+            "title": "Learn <Language>",
+            "name": "learn-language",
+            "content": "mobile-apps/learn-language"
+        },
+        {
+            "title": "All Apps",
+            "name": "all",
+            "content": "mobile-apps/all-apps"
+        }
+    ],
+    "submenuOffset": "offset-by-three"
+}

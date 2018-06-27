@@ -1,0 +1,20 @@
+{
+    "sections": [
+        {
+            "title": "CSS Responsive Menu",
+            "name": "crm",
+            "content": "open-source/css-responsive-menu"
+        },
+        {
+            "title": "HIIT Timer",
+            "name": "ht",
+            "content": "open-source/hiit-timer"
+        },
+        {
+            "title": "JQuery Input File Text",
+            "name": "jqift",
+            "content": "open-source/jquery-input-file-text"
+        }
+    ],
+    "submenuOffset": "offset-by-three"
+}
